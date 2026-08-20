@@ -1,0 +1,23 @@
+# Ansible
+*.retry
+
+# SSH private keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Secrets
+.env
+*.secret
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
